@@ -2,7 +2,7 @@
 Blog Front-End made in React
 
 ## Project information
-Equaldata Technical Test relating to Blog App Front-End
+***Technical Test*** relating to Blog App Front-End
 
 ![prueba](https://user-images.githubusercontent.com/80996376/216750403-cd3b5148-13fc-4592-9284-98079d1175ee.png)
 <p align="center">
