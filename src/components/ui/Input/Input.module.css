@@ -1,0 +1,16 @@
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.inputContainer input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: rgb(231, 209, 184);
+    border-radius: 5px;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,122 @@
+
+.article{
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.article:hover{
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.imageContainer img{
+    width: auto;
+    height: 100%;
+}
+
+
+.infoContainer h2{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-wrap: break-word;
+    font-size: 25px;
+}
+
+.infoContainer p{
+    font-weight: 500;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+
+
+.authorContainer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/*
+.author-info{
+
+}*/
+
+.authorContainer p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.authorImageContainer{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    background-color: black;
+}
+
+.authorInfo img{
+    width: 100%;
+    height: auto;
+
+}
+
+.authorInfo p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ellipsisIcon{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 25px;
+}
+
+.ellipsisIcon:hover{
+    background-color: rgba(0, 0, 0, 0.607);
+} 

@@ -1,0 +1,14 @@
+.button{
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 2px solid #00000061;
+}

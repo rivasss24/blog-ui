@@ -1,0 +1,122 @@
+
+.article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
+.info{
+    height: 100%;
+    width: 80%;
+}
+
+.author{
+    margin-top: 10px;
+    width: 18%;
+    height: auto;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.214);
+    border-radius: 5px;
+}
+
+.imgContainer{
+
+    margin-top: 10px;
+    margin: auto;
+    width: 60%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.imgContainer img{
+    height: 100%;
+    width: auto;
+}
+
+.article h1{
+    overflow-wrap: break-word;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.article p{
+    overflow-wrap: break-word;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.article .contenido{
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.244);
+
+}
+
+.contenido img{
+    max-width: 35%;
+    height: auto;
+}
+
+
+.author p{
+    overflow-wrap: break-word;
+    width: 100%;
+    text-align: center;
+    margin:0px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author .authorImageContainer{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(1, 0, 0);
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.authorImageContainer img{
+    width: 100%;
+    height: auto;
+}
+
+.author h3{
+    overflow-wrap: break-word;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author .moment{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
