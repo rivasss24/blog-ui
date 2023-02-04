@@ -1,6 +1,9 @@
 # blog-ui
 Blog Front-End made in React
 
+## Considerations
+This project must be run on **port 5173**
+
 ## Project information
 ***Technical Test*** relating to Blog App Front-End
 
